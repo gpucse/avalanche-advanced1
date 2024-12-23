@@ -43,11 +43,12 @@ curl -sSfL https://raw.githubusercontent.com/ava-labs/avalanche-cli/main/scripts
 
    Use the provided connection details to connect to your Subnet:
 
-   - **RPC URL:**   http://127.0.0.1:9650/ext/bc/ctuayjPr34gRM7hK3NzobHVdBo6PCxVCC4CzzXkg6QxLtQmxj/rpc
+   - **RPC URL:**
+   - Network RPC URL | http://127.0.0.1:38913/ext/bc/Hd8JY4Yxu4KbPEeSwe5o8XNLy7CSzFBXScNpfXzaqgiRiBdUX/rpc
    - **Funded address:**  0x8db97C7cEcE249c2b98bDC0226Cc4C2A57BF52FC with 1000000 (10^18)
-   - **Network name:** mySubnet
-   - **Chain ID:** 242003
-   - **Currency Symbol:** ETHADVANCED
+   - **Network name:** gopunet
+   - **Chain ID:** 123456
+   - **Currency Symbol:** gopucoin
 
    Note: Add `--http-host=0.0.0.0` to the config if you want to allow API calls from other machines.
 
@@ -70,4 +71,3 @@ curl -sSfL https://raw.githubusercontent.com/ava-labs/avalanche-cli/main/scripts
    After deployment, you can interact with your contracts using the provided RPC URL and addresses.
 
 Congratulations! You have successfully created an Avalanche Subnet, deployed Solidity code, and interacted with the deployed contracts using Remix with MetaMask as the provider.
-**CODE WITH YAYAADHU
